@@ -15,7 +15,7 @@ public class parserRome {
 			SyndFeed feed = input.build(new XmlReader(feedURL));
 
 			System.out.println(feed.getTitle());
-			System.out.println(feed.getEntry());
+			System.out.println(feed.getEntries());
 
 
 			ok = true;
